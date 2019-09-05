@@ -1,0 +1,15 @@
+[package]
+name = "server"
+version = "0.1.0"
+authors = ["Khaled Sakr <khaledosamasakr@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+juniper = "0.13.1"
+chrono = "0.4"
+juniper_hyper = "0.4.1"
+hyper = "0.12.34"
+futures = "0.1.28"
+mongodb = "0.3.12"
